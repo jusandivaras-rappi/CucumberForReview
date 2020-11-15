@@ -34,8 +34,8 @@ public class base {
 		prop.load(fis);
 
 		// How to parametrize in Maven: mvn test -Dbrowser=chrome
-		//String browserName=System.getProperty("browser"); //Check in Maven if there any property browser
-		String browserName = prop.getProperty("browser"); // Line to get browser from data.properties file
+		String browserName=System.getProperty("browser"); //Check in Maven if there any property browser
+		//String browserName = prop.getProperty("browser"); // Line to get browser from data.properties file
 
 		if (browserName.contains("chrome")) {
 			// execute in chrome browser
