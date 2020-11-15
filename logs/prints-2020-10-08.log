@@ -1,0 +1,6 @@
+16:20:41.058 [TestNG-tests-2] INFO  resources.base - ValidateNavigationBar-Driver is initialized
+16:20:41.058 [TestNG-tests-4] INFO  resources.base - ValidateTitle-Driver is initialized
+16:20:56.703 [TestNG-tests-4] INFO  resources.base - ValidateTitle-Navigate to home page
+16:20:56.751 [TestNG-tests-4] INFO  resources.base - ValidateTitle-Successfully validated text message
+16:20:56.798 [TestNG-tests-4] INFO  resources.base - Juan Manuel
+16:20:57.042 [TestNG-tests-2] INFO  resources.base - ValidateNavigationBar-Navigate to home page

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="45598" started-at="2020-11-15T12:17:59 ART" finished-at="2020-11-15T12:18:44 ART">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:cucumberOptions.TestRunner@4b44655e]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Test" duration-ms="45598" started-at="2020-11-15T12:17:59 ART" finished-at="2020-11-15T12:18:44 ART">
+      <class name="cucumberOptions.TestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:cucumberOptions.TestRunner@4b44655e]" name="setUpClass" is-config="true" duration-ms="182" started-at="2020-11-15T12:17:59 ART" finished-at="2020-11-15T12:17:59 ART">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:cucumberOptions.TestRunner@4b44655e]" name="feature" duration-ms="45325" started-at="2020-11-15T12:17:59 ART" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-11-15T12:18:44 ART">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Login into Application]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:cucumberOptions.TestRunner@4b44655e]" name="tearDownClass" is-config="true" duration-ms="3" started-at="2020-11-15T12:18:44 ART" finished-at="2020-11-15T12:18:44 ART">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- cucumberOptions.TestRunner -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
